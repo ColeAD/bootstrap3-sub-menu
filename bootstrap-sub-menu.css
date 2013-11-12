@@ -15,7 +15,10 @@
         border-radius:0 6px 6px 6px;
     }
 .navbar-nav>li>.dropdown-menu li.dropdown:hover>.dropdown-menu{
-    display:block;
+    /* We can let our Javascript handle this
+     * for a nicer experience.
+     * display:block;
+     */
 }
 .navbar-nav>li>.dropdown-menu li.dropdown>a:after{
     display:block;
